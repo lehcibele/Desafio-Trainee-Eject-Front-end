@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    height: 100vh;
+}
+
+/* CABEÇALHO */
+#cabecalho {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-cabecalho {
+    margin: 1.56em 0 1.56em 10em;
+}
+
+.Logo-mobile {
+    display: none;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 2em;
+    margin-right: 10em;
+}
+
+.navbar-link {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.13em;
+    line-height: 2em;
+    color: #FFFFFF; 
+} 
+
+@media (max-width: 1024px) {
+    #logo-cabecalho {
+        margin: 0.8em 0 0.8em 1.25em;
+    }
+
+    .navbar-menu {
+        gap: 0.75em;
+        margin-right: 1.25em;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-desktop {
+        display: none;
+    }
+
+    .Logo-mobile {
+        display: block;
+    }
+
+    .navbar-menu {
+        gap: 0.75em;
+        margin-right: 1.25em;
+    }
+
+    .navbar-link {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+        color: #FFFFFF;
+    } 
+}
+
+
+
