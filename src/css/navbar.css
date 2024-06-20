@@ -37,7 +37,7 @@ body {
     color: #FFFFFF; 
 } 
 
-@media (max-width: 1024px) {
+@media (width <= 1024px) {
     #logo-cabecalho {
         margin: 0.8em 0 0.8em 1.25em;
     }
@@ -48,13 +48,14 @@ body {
     }
 }
 
-@media (max-width: 480px) {
-    .logo-desktop {
-        display: none;
+@media (width <= 480px) {
+    #logo-cabecalho {
+        width: 56px;
+        height: 24px;
     }
 
-    .Logo-mobile {
-        display: block;
+    .logo-desktop {
+        width: 100%;
     }
 
     .navbar-menu {
