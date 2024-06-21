@@ -1,0 +1,252 @@
+/*
+
+body {
+    height: 100vh;
+}
+
+.sobre {
+    background: #F7F7F7;
+}
+
+.subtitulo-sobre {
+    padding-top: 5rem;
+    margin-left: 160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: #333333;
+}
+
+.texto-sobre {
+    margin: 32px 160px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.nossa-equipe {
+    margin: 0 85px 60px;
+}
+
+.subititulo-nossa-equipe {
+    margin-left: 75px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.container-equipe {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.card-equipe {
+    background-color: #F2F2F2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+    width: 450px;
+}
+
+.card-equipe::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 10px;
+    background-color: #FF5733;
+    border-radius: 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.dados-equipe {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 23px;
+    display: flex;
+}
+
+.foto-funcionario {
+    width: 70px;
+    height: 70px;
+}
+
+.foto-funcionario img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.info-equipe {
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.nome-funcionario {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #333333;
+    margin-bottom: 3px;
+}
+
+.cargo-funcionario {
+    font-family: 'Lato';
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin-bottom: 2px;
+}
+
+.descricao-equipe {
+    margin: 0 40px 63px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #666666;
+}
+*/
+
+body {
+    height: 100vh;
+}
+
+.sobre {
+    background: #F7F7F7;
+}
+
+.subtitulo-sobre {
+    padding-top: 5rem;
+    margin-left: 160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: #333333;
+}
+
+.texto-sobre {
+    margin: 32px 160px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.nossa-equipe {
+    margin: 0 85px 60px;
+}
+
+.subititulo-nossa-equipe {
+    margin-left: 75px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.container-equipe {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.card-equipe {
+    background-color: #F2F2F2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+    width: 450px;
+}
+
+.card-equipe::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 10px;
+    background-color: #FF5733;
+    border-radius: 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.dados-equipe {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 23px;
+    display: flex;
+}
+
+.foto-funcionario {
+    width: 70px;
+    height: 70px;
+}
+
+.foto-funcionario img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.info-equipe {
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.nome-funcionario {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #333333;
+    margin-bottom: 3px;
+}
+
+.cargo-funcionario {
+    font-family: 'Lato';
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin-bottom: 2px;
+}
+
+.descricao-equipe {
+    margin: 0 40px 63px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #666666;
+}
