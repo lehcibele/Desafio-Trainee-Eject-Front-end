@@ -5,7 +5,6 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 4000,
         infinite: true,
-
         variableWidth: true,
         prevArrow: '<img class="slick-prev" src="src/img/seta-esquerda.png" alt="">',
         nextArrow: '<img class="slick-next" src="src/img/seta-direita.png" alt="">',

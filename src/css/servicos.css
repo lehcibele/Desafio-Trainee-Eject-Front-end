@@ -1,6 +1,5 @@
 .servicos {
     background-color: #121212;
-    max-width: 1600px;
     color: #FFFFFF;
     padding-top: 4.69rem;
     padding-bottom: 5rem;
@@ -89,5 +88,8 @@
     font-size: 32px;
     line-height: 40px;
     color: #F2F2F2;
+}
+
+@media (max-width: 1350px) {
 
 }

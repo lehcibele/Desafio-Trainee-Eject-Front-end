@@ -1,4 +1,5 @@
 main {
+    max-width: 1600px;
     margin-top: 6.25rem;
     display: flex;
     flex-direction: column;
