@@ -195,6 +195,10 @@
     background-color: #F0EEEE;
 }
 
+.nossos-valores p:last-child {
+    margin-bottom: 0;
+}
+
 .texto-valores::before {
     content: "";
     display: block;

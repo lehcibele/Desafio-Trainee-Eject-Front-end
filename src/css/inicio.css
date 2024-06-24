@@ -9,7 +9,7 @@ main {
 .inicio {
     max-width: 1600px;
     height: 577px;
-    background-image: url(../img/foto1-desktop.png);
+    background-image: url(../img/background-img.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;

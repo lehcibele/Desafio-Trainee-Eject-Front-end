@@ -1,0 +1,93 @@
+.servicos {
+    background-color: #121212;
+    max-width: 1600px;
+    color: #FFFFFF;
+    padding-top: 4.69rem;
+    padding-bottom: 5rem;
+   /* padding: 4.69rem 5.31rem 5rem;*/
+}
+
+.container-servicos {
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.subtitulo-servicos {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+}
+
+.texto-servicos {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.container-servicos p:last-child {
+    margin-bottom: 0;
+}
+
+/* ESTILO CARROSSEL */
+.container-carrossel {
+    position: relative;
+    margin-left: 85px;
+    margin-right: 85px;
+    max-width: 1600px;
+}
+
+.seta-esquerda, .seta-direita {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    z-index: 999;
+}
+
+.seta-esquerda {
+    top: 211px;
+    left: 40px;
+}
+
+.seta-direita {
+    top: 211px;
+    right: 0;
+    margin-right: 40px;
+}
+
+.galeria-wrapper {
+    display: flex;
+    gap: 40px;
+    overflow: hidden;
+}
+
+.galeria {
+    position: relative;
+    width: 509px;
+    height: 452px;
+}
+
+.galeria h2 {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #F2F2F2;
+}
+
+
