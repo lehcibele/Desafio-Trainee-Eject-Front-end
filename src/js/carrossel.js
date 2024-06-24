@@ -10,7 +10,7 @@ $(document).ready(function(){
         nextArrow: '<img class="slick-next" src="src/img/seta-direita.png" alt="">',
         responsive: [
             {
-                breakpoint: 1400,
+                breakpoint: 1500,
                 settings: {
                     slidesToShow: 2,
                 }

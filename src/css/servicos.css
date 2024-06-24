@@ -1,4 +1,5 @@
 .servicos {
+    max-width: 1600px;
     background-color: #121212;
     color: #FFFFFF;
     padding-top: 4.69rem;
@@ -90,6 +91,32 @@
     color: #F2F2F2;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1500px) {
+    .carrossel {
+        width: 1150px;
+      /*  margin-left: 80px;
+        margin-right: 40px; */
+        margin: 0 auto;
+    }
+
+    .card-carrossel {
+        width: 409px;
+        height: 352px;
+        margin-right: 20px;
+    }
+
+    .card-primeiro {
+        margin-left: 20px;
+    }
+    
+    .card-ultimo {
+        margin-right: 0;
+    }
+
+    .card-carrossel h3 {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 30px;
+    }
 
 }
