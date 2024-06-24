@@ -1,11 +1,15 @@
-html {
-    font-size: 16px; 
-} 
+main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .inicio {
-    width: 100%;
-    height: 100vh;
-    background-image: url('../img/foto1-desktop.png');
+    max-width: 1600px;
+    height: 577px;
+    background-image: url(../img/foto1-desktop.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,16 +22,18 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: calc(100% - 20rem);
+    width: calc(100% - 20rem); 
+    max-width: 1600px; /* Adiciona um limite máximo de largura */
+    padding: 0 10rem;
 }
 
 .titulo-inicio {
-    width: 50%;
-   /* width: 43.56rem; */
+    width: 100%;
+    max-width: 43.56rem; 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.5rem; 
+    font-size: 4rem; 
     line-height: 5rem; 
     color: #F2F2F2;
     position: relative;
@@ -36,7 +42,7 @@ html {
 .titulo-inicio span::before {
     content: "";
     display: block;
-    width: 12.8rem; 
+    width: 14.69rem; 
     height: 0.25rem; 
     background-color: #FF5733;
     position: absolute;
@@ -46,22 +52,113 @@ html {
 .titulo-inicio span::after {
     content: "";
     display: block;
-    width: 5rem; 
+    width: 5.94rem; 
     height: 0.25rem; 
     background-color: #FF5733;
     position: absolute;
     margin-top: -0.75rem; 
-    margin-left: 15.5rem; 
+    margin-left: 17.8rem; 
 }
 
 .grafico-inicio {
-    width: 50%;
     max-width: 38.75rem;
-    height: 28.5rem;
+    width: 100%;
+    height: auto;
 }
 
 .grafico-inicio img {
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 1200px) {
+    .container-inicio {
+        padding: 0 5rem;
+        align-items: center;
+    }
+
+    .titulo-inicio {
+        text-align: left;
+        font-size: 3rem;
+        line-height: 4rem;
+        width: 90%;
+        background-size: cover;
+    }
+
+    .titulo-inicio span::before {
+        width: 10.8rem; 
+        height: 0.25rem; 
+        margin-top: 3.25rem; 
+    }
+    
+    .titulo-inicio span::after {
+        width: 4.5rem; 
+        height: 0.25rem; 
+        margin-top: -0.75rem; 
+        margin-left: 13.4rem; 
+    }
+
+    .grafico-inicio {
+        max-width: 28.75rem;
+        width: 90%;
+        height: auto;
+    }
+} 
+
+@media (max-width: 480px) {
+    main {
+        margin-top: 50px;
+    }
+
+    .inicio {
+        height: 362px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .container-inicio {
+        flex-wrap: wrap;
+        width: 90%; 
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-inicio {
+        width: 324px;
+        margin-top: 20px;
+        margin-bottom: 16px;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .titulo-inicio span::before {
+        width: 5.5rem; 
+        height: 0.125rem; 
+        margin-top: -6px;
+        margin-left: 60px; 
+    }
+    
+    .titulo-inicio span::after {
+        width: 2.27rem; 
+        height: 0.125rem; 
+        margin-top: -0.35rem; 
+        margin-left: 10.4rem; 
+    }
+
+    .grafico-inicio {
+        width: 312px;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+
+
 
