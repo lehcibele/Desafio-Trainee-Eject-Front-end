@@ -4,49 +4,49 @@
 
 .container-sobre {
     max-width: 1600px;
-    padding-top: 80px;
-    padding-bottom: 60px;
+    padding-top: 5rem;
+    padding-bottom: 3.75rem;
 } 
 
 .subtitulo-sobre {
-    margin-left: 160px;
+    margin-left: 10rem;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 52px;
+    font-size: 3rem;
+    line-height: 3.25rem;
     color: #333333;
 }
 
 .texto-sobre {
-    margin: 32px 160px;
+    margin: 2rem 10rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
     color: #333333;
 }
 
 .nossa-equipe {
-    margin: 0 85px 60px;
+    margin: 0 5.21rem 3.75rem;
 }
 
 .subititulo-nossa-equipe {
-    margin-left: 75px;
-    margin-bottom: 20px;
+    margin-left: 4.69rem;
+    margin-bottom: 1.25rem;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color: #333333;
 }
 
 .container-equipe {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .card-equipe {
@@ -67,14 +67,14 @@
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 20px;
-    margin-right: 25px;
+    margin-top: 1.25rem;
+    margin-right: 1.56rem;
 }
 
 .dados-equipe {
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-bottom: 23px;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 1.44rem;
     display: flex;
 }
 
@@ -90,64 +90,64 @@
 
 
 .info-equipe {
-    margin-left: 20px;
+    margin-left: 1.25rem;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
 }
 
 .nome-funcionario {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     letter-spacing: 0.015em;
     color: #333333;
-    margin-bottom: 3px;
+    margin-bottom: 0.19rem;
 }
 
 .cargo-funcionario {
     font-family: 'Lato';
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.75rem;
+    line-height: 1rem;
     text-transform: uppercase;
     color: #C4C4C4;
-    margin-bottom: 2px;
+    margin-bottom: 0.125rem;
 }
 
 .descricao-equipe {
-    margin: 0 40px 63px;
+    margin: 0 2.5rem 3.94rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     color: #666666;
 }
 
 .nossa-visao {
-    margin: 32px 160px;
+    margin: 2rem 10rem;
 }
 
 .subititulo-visao {
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     letter-spacing: 0.015em;
     text-transform: uppercase;
     color: #333333;
 }
 
 .texto-visao {
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 39px;
+    padding-top: 0.813rem;
+    padding-bottom: 0.813rem;
+    padding-left: 2.44rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
     color: #333333;
     background-color: #F0EEEE;
     border-radius: 5px;
@@ -161,36 +161,36 @@
     height: 10px;
     background-color: #FF5733;
     position: absolute;
-    margin-top: 7px;
-    margin-left: -8px;
+    margin-top: 0.44rem;
+    margin-left: -0.5rem;
 }
 
 .nossos-valores {
-    margin: 32px 160px 0;
+    margin: 2rem 10rem 0;
 }
 
 .subititulo-valores {
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     letter-spacing: 0.015em;
     text-transform: uppercase;
     color: #333333;
 }
 
 .texto-valores {
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 39px;
-    margin-bottom: 12px;
+    padding-top: 0.813rem;
+    padding-bottom: 0.813rem;
+    padding-left: 2.44rem;
+    margin-bottom: 0.75rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
     color: #333333;
     background-color: #F0EEEE;
 }
@@ -202,8 +202,8 @@
     height: 10px;
     background-color: #FF5733;
     position: absolute;
-    margin-top: 7px;
-    margin-left: -8px;
+    margin-top: 0.44rem;
+    margin-left: -0.5rem;
 }
 
 .texto-valores strong{
