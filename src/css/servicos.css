@@ -37,15 +37,15 @@
 /* ESTILO CARROSSEL */
 .carrossel {
     max-width: 1430px;
-    margin-left: 85px;
-    margin-right: 85px;
+    margin-left: 5.31rem;
+    margin-right: 5.31rem;
     overflow: hidden;
 }
 
 .card-carrossel {
     width: 509px;
     height: 452px;
-    margin-right: 40px;
+    margin-right: 2.5rem;
     position: relative;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .card-primeiro {
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 
 .card-ultimo {
@@ -70,24 +70,24 @@
 }
 
 .slick-prev {
-    margin-left: 56px;
+    margin-left: 3.5rem;
 }
 
 .slick-next {
-    margin-right: 56px;
+    margin-right: 3.5rem;
 }
 
 .card-carrossel h3 {
     position: absolute;
     z-index: 5;
-    left: 40px;
+    left: 2.5rem;
     bottom: 0;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2.5rem;
     color: #F2F2F2;
 }
 
@@ -109,7 +109,7 @@
 .modal-containe {
     max-width: 1280px;
     height: 686px;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.1));
     background: #F7F7F7;
     border-radius: 5px;
@@ -120,25 +120,25 @@
 .close {
     position: absolute;
     right: 0;
-    margin-top: 40px;
-    margin-right: 40px;
+    margin-top: 2.5rem;
+    margin-right: 2.5rem;
     background: none;
     border: none;
     cursor: pointer;
 }
 
 .texto-modal {
-    margin: 80px 90px 40px;
+    margin: 5rem 5.62rem 5rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     color: #333333;
 }
 
 .formulario {
-    margin: 0 90px 141px;
+    margin: 0 5.63rem 8.81rem;
     display: flex;
     flex-direction: column;
 }
@@ -147,19 +147,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .lado-esquerdo label, .lado-direito label {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0.015em;
     color: #333333;
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
 }
 
 .lado-esquerdo input, .lado-direito input {
@@ -167,23 +167,23 @@
     height: 48px;
     background: #F2F2F2;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 0.312rem;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .lado-direito::placeholder {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: #C4C4C4;
 }
 
 .chekbox {
-    margin-top: 4px;
-    margin-bottom: 16px;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
 }
@@ -193,7 +193,7 @@
     height: 32px;
     background-color: #F2F2F2;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 0.312rem;
     border: none;
 }
 
@@ -201,11 +201,11 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0.015em;
     color: #333333;
-    margin-left: 8px;
+    margin-left: 0.5rem;
 }
 
 .enviar {
@@ -213,14 +213,14 @@
     height: 56px;
     background: #FF5733;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 0.312rem;
     border: none;
 
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     text-transform: uppercase;
     color: #121212;
 }
@@ -256,11 +256,11 @@
     .card-carrossel {
         width: 409px;
         height: 352px;
-        margin-right: 20px;
+        margin-right: 1.25rem;
     }
 
     .card-primeiro {
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
     
     .card-ultimo {
@@ -268,35 +268,35 @@
     }
 
     .card-carrossel h3 {
-        margin-bottom: 30px;
-        font-size: 24px;
-        line-height: 30px;
+        margin-bottom: 1.88rem;
+        font-size: 1.5rem;
+        line-height: 1.88rem;
     }
 
     /* MODAL */
     .modal-containe {
         max-width: 900px;
         height: 700px;
-        margin-top: 270px;
-        margin-bottom: 200px;
+        margin-top: 16.88rem;
+        margin-bottom: 12.5rem;
     }
 
     .close {
-        margin-top: 20px;
-        margin-right: 20px;
+        margin-top: 1.25rem;
+        margin-right: 1.25rem;
     }
 
     .texto-modal {
-        margin: 40px 45px;
+        margin: 2.5rem 2.81rem;
         font-family: 'Lato';
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 
     .formulario {
-        margin: 40px 45px;
+        margin: 2.5rem 2.81rem;
     }
 
     .lado-esquerdo input, .lado-direito input {
@@ -305,12 +305,12 @@
     }
 
     .lado-esquerdo label, .lado-direito label {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 1rem;
+        line-height: 1.25rem;
         letter-spacing: 0.015em;
         color: #333333;
         display: block;
-        margin-bottom: 4px;
+        margin-bottom: 0.25rem;
     }
 
 }
