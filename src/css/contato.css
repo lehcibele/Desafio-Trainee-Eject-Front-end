@@ -1,0 +1,215 @@
+.contato {
+    max-width: 1600px;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+.subtitulo-contato {
+    margin: 5rem 10rem 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.25rem;
+    color: #333333;
+}
+
+.container-contato {
+    margin: 0 10rem 5.44rem;
+    display: flex;
+}
+
+.fale-conosco {
+    max-width: 510px;
+    background-color: #121212;
+    border-radius: 5px 0px 0px 5px;
+    color: #C4C4C4;
+    font-family: 'Lato';
+    font-style: normal;
+}
+
+.fale-conosco h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin: 2.5rem 17.75rem 1.5rem 2.5rem;
+}
+
+.fale-conosco p {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: #C4C4C4;
+    margin: 0 2.5rem 3.75rem;
+}
+
+.fale-conosco h4 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin: 0 17.19rem 0.75rem 2.5rem;
+}
+
+.contato-endereco {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin: 0 4rem 1.25rem 2.5rem;
+}
+
+.contato-endereco a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #666666; 
+    cursor: pointer;
+}
+
+.mapa {
+    max-width: 430px;
+    height: 430px;
+    margin: 0 2.5rem 2.5rem;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contato-formulario {
+    background-color: #F2F2F2;
+    color: #333333;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.contato-formulario h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 2.5rem 35rem 2rem 2.94rem;
+    position: relative;
+}
+
+.contato-formulario h3::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 10px;
+    background-color: #FF5733;
+    border-radius: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 7px;
+    margin-left: -7px;
+}
+
+.formulario-contato {
+    margin: 0 40px 286px;
+}
+
+.campo-formulario-contato {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.lado-esquerdo-contato label, .lado-direito-contato label, .area-contato-msg label, .checkbox-contato label {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #333333;
+    margin-bottom: 4px;
+}
+
+.lado-esquerdo-contato input, .lado-direito-contato input{
+    border: none;
+    width: 335px;
+    height: 48px;
+    background: #F7F7F7;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.area-contato-msg input {
+    width: 690px;
+    height: 200px;
+    border: none;
+    background-color: #F7F7F7;
+    margin-bottom: 20px;
+}
+
+.checkbox-contato {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.checkbox-contato input[type="checkbox"] {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: #F2F2F2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.enviar-contato {
+    width: 308px;
+    height: 56px;
+    background: #FF5733;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 0.312rem;
+    border: none;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+@media (max-width: 1400px) {
+    .container-contato {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .fale-conosco {
+        max-width: 500px;
+    }
+
+    .contato-formulario h3 {
+        margin-right: 25rem;
+    }
+
+    .lado-esquerdo-contato input, .lado-direito-contato input {
+        width: 325px;
+    }
+
+    .area-contato-msg input {
+
+    }
+}
+

@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="src/css/inicio.css">
     <link rel="stylesheet" href="src/css/sobre.css">
     <link rel="stylesheet" href="src/css/servicos.css">
+    <link rel="stylesheet" href="src/css/contato.css">
 
 </head>
 <body>
@@ -43,7 +44,7 @@
     </header>
 
     <main>
-        <!--INICIO-->
+        <!-- INICIO -->
         <section class="inicio" id="inicio">
             <div class="container-inicio">
                 <h1 class="titulo-inicio">
@@ -55,7 +56,7 @@
             </div>
         </section>
 
-        <!--SOBRE-->
+        <!-- SOBRE -->
         <section class="sobre" id="sobre">
             <div class="container-sobre">
                 <!-- Seção Sobre -->
@@ -171,7 +172,7 @@
             </div>  
         </section>
 
-        <!-- SERVIÇOS-->
+        <!-- SERVIÇOS -->
         <section class="servicos" id="servicos">
             <div class="container-servicos">
                 <h2 class="subtitulo-servicos">Serviços</h2>
@@ -330,6 +331,64 @@
                     </form>
                 </div>
             </div>
+        </section>
+
+        <!-- CONTATO-->
+        <section class="contato" id="contato">
+
+            <h2 class="subtitulo-contato">Contato</h2>
+            
+            <div class="container-contato">
+                <div class="fale-conosco">
+                    <h3>Fale conosco</h3>
+                    <p>
+                        Entre em contato e descubra como a Digital Surge pode transformar seu negócio com soluções digitais inovadoras. Nossa equipe de especialistas está pronta para entender suas necessidades e oferecer as melhores estratégias para impulsionar seu sucesso. Não perca a oportunidade de levar sua empresa ao próximo nível com a nossa ajuda!
+                    </p>
+                    <h4>Onde nos encontrar:</h4>
+                    <div class="contato-endereco">
+                        <img src="src/img/icon-local.png" alt="Icon local">
+                        <a href="https://maps.app.goo.gl/totZz5sjkA3AVcBa7" target="_blank">Rua Dr. Besouro, 1997 - Cidade Alta / Natal - RN</a>
+                    </div>
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.7391758520143!2d-35.20831855087366!3d-5.7878982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3000cd67a8233%3A0x276eedb2288f661!2sR.%20Princesa%20Isabel%2C%20717%20-%20Ribeira%2C%20Natal%20-%20RN%2C%2059025-400!5e0!3m2!1spt-BR!2sbr!4v1719323206353!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="contato-formulario">
+                    <h3>Preencha abaixo</h3>
+                    <form class="formulario-contato">
+                        <div class="campo-formulario-contato">
+                            <div class="lado-esquerdo-contato">
+                                <label for="nome-contato">Nome</label>
+                                <input type="text" name="nome-contato" id="nome-contato" required>
+                                <label for="email-contato">E-mail</label>
+                                <input type="email" name="email-contato" id="email-contato" required>
+                            </div>
+    
+                            <div class="lado-direito-contato">
+                                <label for="sobrenone-contato">Sobrenome</label>
+                                <input type="text" name="sobrenone-contato" id="sobrenone-contato" required>
+                                <label for="telefone-contato">Telefone</label>
+                                <input type="tel" name="telefone-contato" id="telefone-contato" placeholder="(00) 9 9999-9999" required>
+                            </div>
+                        </div>
+                    
+                        <div class="area-contato-msg">
+                            <label for="mensagem">Sua mensagem</label>
+                            <input type="text" name="mensagem" id="mensagem" required>
+                        </div>
+
+                        <div class="checkbox-contato">
+                            <input type="checkbox" name="checkbox-contato" id="checkbox-contato">
+                            <label for="checkbox-contato">Li e concordo com os Termos & Condições.</label>
+                        </div>
+
+                        <button class="enviar-contato" type="submit">Enviar mensagem</button>
+                        
+                    </form>
+                </div>
+            </div>
+
         </section>
 
     </main>
