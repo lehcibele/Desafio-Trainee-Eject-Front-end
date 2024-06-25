@@ -43,7 +43,7 @@
     </header>
 
     <main>
-
+        <!--INICIO-->
         <section class="inicio" id="inicio">
             <div class="container-inicio">
                 <h1 class="titulo-inicio">
@@ -55,6 +55,7 @@
             </div>
         </section>
 
+        <!--SOBRE-->
         <section class="sobre" id="sobre">
             <div class="container-sobre">
                 <!-- Seção Sobre -->
@@ -170,6 +171,7 @@
             </div>  
         </section>
 
+        <!-- SERVIÇOS-->
         <section class="servicos" id="servicos">
             <div class="container-servicos">
                 <h2 class="subtitulo-servicos">Serviços</h2>
@@ -182,31 +184,153 @@
                 </p>
                 
             </div>
-
+            <!--CARROSSEL-->
             <div class="carrossel">
-                <div class="card-carrossel card-primeiro">
+                <div class="card-carrossel card-primeiro" onclick="openModal('modal1')">
                     <img src="src/img/foto1-carrossel.png" alt="slide 1">
                     <h3>Gestão de Mídias Sociais</h3>
                 </div>
 
-                <div class="card-carrossel">
+                <div class="card-carrossel" onclick="openModal('modal2')">
                     <img src="src/img/foto2-carrossel.png" alt="slide 2">
                     <h3>SEO (Otimização para Motores de Busca)</h3>
                 </div>
 
-                <div class="card-carrossel">
+                <div class="card-carrossel" onclick="openModal('modal3')">
                     <img src="src/img/foto3-carrossel.png" alt="slide 3">
                     <h3>Marketing de Conteúdo</h3>
                 </div>
 
-                <div class="card-carrossel card-ultimo">
+                <div class="card-carrossel card-ultimo" onclick="openModal('modal4')">
                     <img src="src/img/foto4-carrossel.png" alt="slide 4">
                     <h3>Publicidade Online (Google Ads, Facebook Ads)</h3>
                 </div>
             </div>
+            <!--MODAL-->
+            <div class="modal" id="modal1">
+                <div class="modal-containe">
+                    <button class="close" id="close"><img src="src/img/icon-fechar-modal.png"></button>
+                    <p class="texto-modal">
+                        Nosso serviço de Gestão de Mídias Sociais na Digital Surge é projetado para maximizar sua presença online, engajar seu público e promover sua marca de maneira eficaz. Com estratégias personalizadas e conteúdo atraente, ajudamos a aumentar o alcance e a interação nas suas plataformas sociais. Para saber mais sobre como podemos transformar suas mídias sociais, inscreva-se no formulário e receba nosso material exclusivo diretamente no seu e-mail cadastrado.
+                    </p>
+                    <form class="formulario" id="form1">
+                        <div class="campo-formulario">
+                            <div class="lado-esquerdo">
+                                <label for="nome1">Nome completo</label>
+                                <input type="text" name="nome" id="nome1" required>
+                                <label for="email1">E-mail</label>
+                                <input type="email" name="email" id="email1" required >
+                            </div>
 
+                            <div class="lado-direito">
+                                <label for="telefone1">Telefone</label>
+                                <input type="tel" name="telefone" id="telefone1" placeholder="(00) 9 9999-9999" required>
+                                <label for="redesocial1">Rede Social</label>
+                                <input type="text" name="redesocial" id="redesocial1" placeholder="https://instagram.com/" required>
+                            </div>
+                        </div>
+
+                        <div class="chekbox">
+                            <input type="checkbox" name="checkbox" id="chekbox1">
+                            <label for="chekbox1">Li e concordo com os Termos & Condições.</label>
+                        </div>
+
+                        <button class="enviar" type="submit">Solicitar Material</button>
+                        
+                    </form>
+                </div>
+            </div>
+
+            <div class="modal" id="modal2">
+                <div class="modal-containe">
+                    <button class="close" id="close2"><img src="src/img/icon-fechar-modal.png"></button>
+                    <p class="texto-modal">
+                        Nosso serviço de SEO (Otimização para Motores de Busca) é voltado para melhorar significativamente a visibilidade do seu site nos resultados de pesquisa, atraindo mais tráfego orgânico e qualificando leads. Com técnicas avançadas de SEO, como otimização de palavras-chave, melhorias técnicas e estratégias de link building, garantimos que seu site esteja sempre bem posicionado. Para descobrir como podemos impulsionar seu ranking nos motores de busca, inscreva-se no formulário e receba nosso material no e-mail cadastrado.
+                    </p>
+                    <form class="formulario" id="form2">
+                        <div class="campo-formulario">
+                            <div class="lado-esquerdo">
+                                <label for="nome2">Nome completo</label>
+                                <input type="text" name="nome" id="nome2" required>
+                                <label for="email2">E-mail</label>
+                                <input type="email" name="email" id="email2" required>
+                            </div>
+                            <div class="lado-direito">
+                                <label for="telefone2">Telefone</label>
+                                <input type="tel" name="telefone" id="telefone2" placeholder="(00) 9 9999-9999" required>
+                                <label for="redesocial2">Rede Social</label>
+                                <input type="text" name="redesocial" id="redesocial2" placeholder="https://instagram.com/" required>
+                            </div>
+                        </div>
+                        <div class="chekbox">
+                            <input type="checkbox" name="checkbox" id="chekbox2">
+                            <label for="chekbox2">Li e concordo com os Termos & Condições.</label>
+                        </div>
+                        <button class="enviar" type="submit">Solicitar Material</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="modal" id="modal3">
+                <div class="modal-containe">
+                    <button class="close" id="close3"><img src="src/img/icon-fechar-modal.png"></button>
+                    <p class="texto-modal">
+                        Nosso serviço de Marketing de Conteúdo é projetado para criar e distribuir conteúdo relevante e valioso que atraia e engaje seu público-alvo, promovendo a sua marca e impulsionando conversões. Desenvolvemos estratégias de conteúdo personalizadas que incluem blogs, artigos, infográficos e muito mais, tudo alinhado aos interesses e necessidades do seu mercado. Para saber como podemos transformar sua estratégia de conteúdo, inscreva-se no formulário e receba nosso material exclusivo diretamente no e-mail cadastrado.
+                    </p>
+                    <form class="formulario" id="form3">
+                        <div class="campo-formulario">
+                            <div class="lado-esquerdo">
+                                <label for="nome3">Nome completo</label>
+                                <input type="text" name="nome" id="nome3" required>
+                                <label for="email3">E-mail</label>
+                                <input type="email" name="email" id="email3" required>
+                            </div>
+                            <div class="lado-direito">
+                                <label for="telefone3">Telefone</label>
+                                <input type="tel" name="telefone" id="telefone3" placeholder="(00) 9 9999-9999" required>
+                                <label for="redesocial3">Rede Social</label>
+                                <input type="text" name="redesocial" id="redesocial3" placeholder="https://instagram.com/" required>
+                            </div>
+                        </div>
+                        <div class="chekbox">
+                            <input type="checkbox" name="checkbox" id="chekbox3">
+                            <label for="chekbox3">Li e concordo com os Termos & Condições.</label>
+                        </div>
+                        <button class="enviar" type="submit">Solicitar Material</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="modal" id="modal4">
+                <div class="modal-containe">
+                    <button class="close" id="close4"><img src="src/img/icon-fechar-modal.png"></button>
+                    <p class="texto-modal">
+                        O serviço de Publicidade Online na Digital Surge, especializado em Google Ads e Facebook Ads, é projetado para aumentar sua visibilidade e gerar leads qualificados de maneira eficaz. Com campanhas personalizadas que alcançam o público-alvo com precisão, otimizando continuamente para garantir o melhor retorno. Para descobrir como nossa expertise em publicidade online pode impulsionar seu negócio, inscreva-se no formulário e receba nosso material exclusivo diretamente no seu e-mail cadastrado.
+                    </p>
+                    <form class="formulario" id="form4">
+                        <div class="campo-formulario">
+                            <div class="lado-esquerdo">
+                                <label for="nome4">Nome completo</label>
+                                <input type="text" name="nome" id="nome4" required>
+                                <label for="email4">E-mail</label>
+                                <input type="email" name="email" id="email4" required>
+                            </div>
+                            <div class="lado-direito">
+                                <label for="telefone4">Telefone</label>
+                                <input type="tel" name="telefone" id="telefone4" placeholder="(00) 9 9999-9999" required>
+                                <label for="redesocial4">Rede Social</label>
+                                <input type="text" name="redesocial" id="redesocial4" placeholder="https://instagram.com/" required>
+                            </div>
+                        </div>
+                        <div class="chekbox">
+                            <input type="checkbox" name="checkbox" id="chekbox4">
+                            <label for="chekbox4">Li e concordo com os Termos & Condições.</label>
+                        </div>
+                        <button class="enviar" type="submit">Solicitar Material</button>
+                    </form>
+                </div>
+            </div>
         </section>
-
 
     </main>
 
@@ -216,5 +340,6 @@
 
     
     <script src="src/js/carrossel.js"></script>
+    <script src="src/js/modal.js"></script>
 </body>
 </html>
