@@ -1,0 +1,80 @@
+.rodape {
+    max-width: 1600px;
+    width: 100%;
+    background-color: #333333;
+    font-family: 'Lato';
+    font-style: normal;
+}   
+
+.rodape-container {
+    display: flex;
+    padding-top: 60px;
+    margin: 0 406px 62px 160px;
+}
+
+.rodape-contato {
+    margin-left: 260px;
+    margin-right: 120px;
+}
+
+.rodape-contato h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    margin-bottom: 32px;
+}
+
+.rodape-contato p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #C4C4C4;
+    margin-bottom: 20px;
+}
+
+.rodape-contato .linha-horizontal {
+    border: none;
+    border: 1px solid #4D4D4D;
+    width: 360px;
+    box-shadow: none;
+}
+
+.rodape-contato .rodape-icons {
+    margin-top: 20px;
+}
+
+.rodape-contato .rodape-icons img {
+    margin-right: 32px;
+}
+
+.rodape-informacoes h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    margin-bottom: 32px;
+}
+
+.rodape-informacoes .rodape-menu {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #C4C4C4;
+}
+
+.rodape .rodape-direitos-reservados {
+    margin-left: 160px;
+    padding-bottom: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #C4C4C4;
+}
