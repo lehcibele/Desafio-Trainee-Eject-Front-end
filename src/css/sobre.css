@@ -213,3 +213,18 @@
 .texto-valores strong{
     font-weight: 700;
 }
+
+@media (max-width: 1000px) {
+    .container-equipe {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .subititulo-nossa-equipe {
+        margin-left: 0;
+    }
+
+    .nossa-equipe {
+        margin-left: 160px;
+    }
+}

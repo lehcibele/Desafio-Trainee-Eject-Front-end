@@ -17,6 +17,11 @@
 .container-contato {
     margin: 0 10rem 5.44rem;
     display: flex;
+    border-radius: 5px;
+}
+
+.contato-container-mapa-mobile {
+    display: none;
 }
 
 .fale-conosco {
@@ -53,14 +58,14 @@
     letter-spacing: 0.015em;
     text-transform: uppercase;
     color: #C4C4C4;
-    margin: 0 17.19rem 0.75rem 2.5rem;
+    margin: 0 15.19rem 0.75rem 2.5rem;
 }
 
 .contato-endereco {
     display: flex;
     align-items: center;
     gap: 0.25rem;
-    margin: 0 4rem 1.25rem 2.5rem;
+    margin: 0 3rem 1.25rem 2.5rem;
 }
 
 .contato-endereco a {
@@ -99,7 +104,7 @@
     letter-spacing: 0.015em;
     text-transform: uppercase;
     color: #333333;
-    margin: 2.5rem 35rem 2rem 2.94rem;
+    margin: 2.5rem 0 2rem 2.94rem;
     position: relative;
 }
 
@@ -191,25 +196,104 @@
 }
 
 @media (max-width: 1400px) {
-    .container-contato {
-        margin-left: 5rem;
-        margin-right: 5rem;
+    .container-contato {   
+        justify-content: center;
+        margin: 0 6rem 5.44rem;
     }
 
     .fale-conosco {
         max-width: 500px;
     }
 
-    .contato-formulario h3 {
-        margin-right: 25rem;
+    .campo-formulario-contato {
+        flex-direction: column;
     }
 
     .lado-esquerdo-contato input, .lado-direito-contato input {
-        width: 325px;
+        width: 450px;
     }
 
     .area-contato-msg input {
-
+        width: 500px;
+        height: 200px;
     }
+
 }
 
+@media (max-width: 1050px) {
+    .container-contato {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        
+    }
+
+    .contato-container-mapa-desktop {
+        display: none;
+    }
+
+    .fale-conosco {
+        max-width: 100%;
+       
+    }
+
+    .formulario-contato {
+        margin-bottom: 60px;
+    }
+
+    .contato-container-mapa-mobile {
+        display: block;
+        background-color: #F2F2F2;
+        
+    }
+
+    .contato-container-mapa-mobile h4 {
+        color: #333333;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.015em;
+        text-transform: uppercase;
+        margin: 0 15.19rem 0.75rem 2.5rem;
+        
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .subtitulo-contato {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        color: #333333;
+        margin: 20px 0 5px 48px;
+    }
+
+    .fale-conosco h3 {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        margin: 12px 0 5px 20px;
+    }
+
+    .fale-conosco p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 20px 20px;
+    }
+
+    .lado-esquerdo-contato input, .lado-direito-contato input {
+        width: 288px;
+    }
+
+    .area-contato-msg input {
+        width: 288px;
+        height: 162px;
+    }
+}
