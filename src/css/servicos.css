@@ -316,7 +316,7 @@
 
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1100px) {
     .carrossel {
         width: 950px;
         margin: 0 auto;
@@ -344,5 +344,126 @@
         margin-bottom: 5rem;
         margin-left: 5rem;
         margin-right: 5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .servicos {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .container-servicos {
+        margin-bottom: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .subtitulo-servicos {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 12px;
+    }
+
+    .texto-servicos {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* CARROSSEL */
+    .card-carrossel {
+        width: 312px;
+        height: 271px;
+        margin-right: 2.5rem;
+        position: relative;
+    }
+    
+    .card-carrossel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-carrossel h3 {
+        left: 20px;
+        bottom: 0;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    /* MODAL */
+    .modal {
+        opacity: 1;
+    }
+
+    .modal-containe {
+        max-width: 326px;
+        height: 660px;
+        margin-top: 8.25rem;
+    }
+
+    .close {
+        margin-top: 12px;
+        margin-right: 12px;
+    }
+
+    .texto-modal {
+        margin: 40px 28px 12px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .formulario {
+        margin: 12px 24px 68px;
+    }
+
+    .campo-formulario {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .lado-esquerdo label, .lado-direito label {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0.015em;
+        margin-bottom: 4px;
+    }
+
+    .lado-esquerdo input, .lado-direito input {
+        width: 270px;
+        height: 24px;
+        margin-bottom: 12px;
+        border-radius: 3px;
+    }
+
+    .chekbox {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .chekbox input[type="checkbox"]  {
+        width: 16px;
+        height: 16px;
+    }
+
+    .chekbox label {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0.015em;
+    }
+
+    .enviar {
+        width: 150px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+
     }
 }

@@ -228,3 +228,126 @@
         margin-left: 160px;
     }
 }
+
+@media (max-width: 480px) {
+    .container-sobre {
+        max-width: 1600px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .subtitulo-sobre {
+        margin-left: 24px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .texto-sobre {
+        margin: 12px 24px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .nossa-equipe {
+        margin: 0 17px 20px;
+    }
+
+    .subititulo-nossa-equipe {
+        margin-left: 7px;
+        margin-bottom: 12px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+    }
+
+    .container-equipe {
+        gap: 20px;
+    }
+
+    .card-equipe {
+        width: 326px;
+    }
+
+    .dados-equipe {
+        margin: 28px 0 24px 28px;
+    }
+
+    .foto-funcionario {
+        width: 50px;
+        height: 50px;
+    }
+
+    .info-equipe {
+        margin-left: 10px;
+    }
+
+    .nome-funcionario {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.015em;
+    }
+
+    .cargo-funcionario {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .icon-funcionario {
+        width: 11.7px;
+        height: 12.4px;
+    }
+
+    .descricao-equipe {
+        margin: 0 26px 33px 28px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .card-equipe::after  {
+        margin-top: 12px;
+        margin-right: 12px;
+    }
+
+    .nossa-visao {
+        margin: 20px 24px;
+    }
+
+    .subititulo-visao {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        margin-bottom: 15px;
+    }
+
+    .texto-visao {
+        padding: 10px 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .nossos-valores {
+        margin: 0 20px;
+    }
+
+    .subititulo-valores {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+    }
+
+    .texto-valores {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+}
