@@ -9,41 +9,41 @@
 
 .rodape-container {
     display: flex;
-    padding-top: 60px;
-    margin: 0 406px 62px 160px;
+    padding-top: 3.75rem;
+    margin: 0 25.38rem 3.88rem 10rem;
     
 }
 
 .rodape-container-logo-contato {
     display: flex;
-    gap: 260px;
-    margin-right: 120px;
+    gap: 16.25rem;
+    margin-right: 7.5rem;
 }
 
 .rodape-contato h3 {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     letter-spacing: 0.015em;
     text-transform: uppercase;
     color: #F7F7F7;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .rodape-contato p {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     color: #C4C4C4;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .rodape-contato p {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     color: #C4C4C4;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .rodape-contato .linha-horizontal {
@@ -55,21 +55,21 @@
 }
 
 .rodape-contato .rodape-icons {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .rodape-contato .rodape-icons img {
-    margin-right: 32px;
+    margin-right: 2rem;
 }
 
 .rodape-informacoes h3 {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     letter-spacing: 0.015em;
     text-transform: uppercase;
     color: #F7F7F7;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .rodape-informacoes .rodape-menu {
@@ -77,42 +77,42 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 36px;
+    font-size: 1.125rem;
+    line-height: 2.25rem;
     color: #C4C4C4;
 }
 
 .rodape .rodape-direitos-reservados {
-    margin-left: 160px;
-    padding-bottom: 60px;
+    margin-left: 10rem;
+    padding-bottom: 3.75rem;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     color: #C4C4C4;
 }
 
 .rodape .rodape-direitos-reservados {
-    margin-left: 160px;
-    padding-bottom: 60px;
+    margin-left: 10rem;
+    padding-bottom: 3.75rem;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     color: #C4C4C4;
 }
 
 @media (max-width: 1200px) {
     .rodape-container {
         align-items: center;
-        margin: 0 50px 62px 60px;
+        margin: 0 3.125rem 3.875rem 3.75rem;
     }
 
     .rodape-container-logo-contato {
-        margin-right: 90px;
+        margin-right: 5.63rem;
     }
 
     .rodape-container-logo-contato {
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 3.13rem;
     }
 
     .rodape-informacoes {
@@ -121,19 +121,19 @@
     }
 
     .rodape .rodape-direitos-reservados {
-        margin-left: 60px;
+        margin-left: 3.75rem;
     }
 }
 
 @media (max-width: 480px) {
     .rodape-container {
         align-items: center;
-        padding-top: 30px;
-        margin: 0 50px 20px 40px;
+        padding-top: 1.88rem;
+        margin: 0 3.13rem 1.25rem 2.5rem;
     }
 
     .rodape-container-logo-contato {
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .rodape-logo {
@@ -147,16 +147,16 @@
 
     .rodape-contato h3 {
         font-weight: 500;
-        font-size: 10px;
-        line-height: 12px;
-        margin-bottom: 12px;
+        font-size: 0.63rem;
+        line-height: 0.75rem;
+        margin-bottom: 0.75rem;
     }
 
     .rodape-contato p {
         font-weight: 500;
-        font-size: 10px;
-        line-height: 12px;
-        margin-bottom: 8px;
+        font-size: 0.63rem;
+        line-height: 0.75rem;
+        margin-bottom: 0.5rem;
     }
 
     .rodape-contato .linha-horizontal {
@@ -165,8 +165,8 @@
     }
 
     .rodape-contato .rodape-icons {
-        margin-top: 20px;
-        gap: 12px;
+        margin-top: 1.25rem;
+        gap: 0.75rem;
     }
 
     .rodape-contato .rodape-icons img {
@@ -175,31 +175,31 @@
     }
 
     .rodape-contato .rodape-icons img {
-        margin-right: 12px;
+        margin-right: 0.75rem;
     }
 
     .rodape-informacoes {
-        margin-right: 60px;
+        margin-right: 3.75rem;
     }
 
     .rodape-informacoes h3 {
         font-weight: 500;
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 0.63rem;
+        line-height: 0.75rem;
     }
 
     .rodape-informacoes .rodape-menu {
         font-weight: 500;
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 0.63rem;
+        line-height: 0.875rem;
     }
 
     .rodape .rodape-direitos-reservados {
-        margin-left: 40px;
+        margin-left: 2.5rem;
         font-weight: 400;
-        font-size: 8px;
-        line-height: 10px;
-        padding-bottom: 31px;
+        font-size: 0.5rem;
+        line-height: 0.63rem;
+        padding-bottom: 1.94rem;
     }
 }
 

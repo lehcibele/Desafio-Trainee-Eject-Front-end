@@ -126,21 +126,21 @@ main {
     .titulo-inicio span::before {
         width: 10.5rem; 
         height: 0.25rem; 
-        margin-top: -10px; 
-        margin-left: 238px;
+        margin-top: -0.625rem; 
+        margin-left: 14.87rem;
     }
     
     .titulo-inicio span::after {
         width: 4.5rem; 
         height: 0.25rem; 
-        margin-top: -10px; 
-        margin-left: 440px; 
+        margin-top: -0.625rem; 
+        margin-left: 27.5rem; 
     }
 
     .grafico-inicio {
         width: 460px;
-        margin-top: 10px;
-        padding-bottom: 20px;
+        margin-top: 0.625rem;
+        padding-bottom: 1.25rem;
     }
 }
 

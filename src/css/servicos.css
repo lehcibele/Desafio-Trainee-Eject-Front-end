@@ -349,31 +349,35 @@
 
 @media (max-width: 480px) {
     .servicos {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
     }
 
     .container-servicos {
-        margin-bottom: 16px;
-        margin-left: 24px;
-        margin-right: 24px;
+        margin-bottom: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 
     .subtitulo-servicos {
         font-weight: 700;
-        font-size: 20px;
-        line-height: 32px;
-        margin-bottom: 12px;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        margin-bottom: 0.75rem;
     }
 
     .texto-servicos {
         font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        margin-bottom: 1.25rem;
     }
 
     /* CARROSSEL */
+    .carrossel {
+        max-width: 67%;
+    }
+
     .card-carrossel {
         width: 312px;
         height: 271px;
@@ -390,8 +394,8 @@
     .card-carrossel h3 {
         left: 20px;
         bottom: 0;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
     }
 
     /* MODAL */
@@ -406,30 +410,30 @@
     }
 
     .close {
-        margin-top: 12px;
-        margin-right: 12px;
+        margin-top: 0.75rem;
+        margin-right: 0.75rem;
     }
 
     .texto-modal {
-        margin: 40px 28px 12px;
+        margin: 2.5rem 1.75rem 0.75rem;
         font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
     }
 
     .formulario {
-        margin: 12px 24px 68px;
+        margin: 0.75rem 1.5rem 4.25rem;
     }
 
     .campo-formulario {
         flex-direction: column;
-        gap: 12px;
+        gap: 0.75rem;
     }
 
     .lado-esquerdo label, .lado-direito label {
         font-weight: 600;
-        font-size: 10px;
-        line-height: 16px;
+        font-size: 0.625rem;
+        line-height: 1rem;
         letter-spacing: 0.015em;
         margin-bottom: 4px;
     }
@@ -437,13 +441,13 @@
     .lado-esquerdo input, .lado-direito input {
         width: 270px;
         height: 24px;
-        margin-bottom: 12px;
+        margin-bottom: 0.75rem;
         border-radius: 3px;
     }
 
     .chekbox {
-        margin-top: 12px;
-        margin-bottom: 12px;
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
     }
 
     .chekbox input[type="checkbox"]  {
@@ -453,8 +457,8 @@
 
     .chekbox label {
         font-weight: 600;
-        font-size: 10px;
-        line-height: 16px;
+        font-size: 0.625rem;
+        line-height: 1rem;
         letter-spacing: 0.015em;
     }
 
@@ -462,8 +466,30 @@
         width: 150px;
         height: 32px;
         font-weight: 700;
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 0.75rem;
+        line-height: 0.75rem;
 
+    }
+}
+
+@media (max-width: 450px) {
+    .carrossel {
+        max-width: 72%;
+    }
+
+    .card-carrossel h3 {
+        left: 20px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .carrossel {
+        max-width: 83%;
+    }
+
+    .card-carrossel h3 {
+        left: 20px;
+        font-size: 1.2rem;
     }
 }
