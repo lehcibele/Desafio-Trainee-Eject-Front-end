@@ -333,6 +333,10 @@
         line-height: 20px;
     }
 
+    .texto-visao::before {
+        margin-top: 0.27rem;
+    }
+
     .nossos-valores {
         margin: 0 20px;
     }
@@ -348,6 +352,10 @@
         padding: 10px 20px;
         font-size: 14px;
         line-height: 20px;
+    }
+
+    .texto-valores::before {
+        margin-top: 0.27rem;
     }
 
 }

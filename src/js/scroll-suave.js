@@ -5,8 +5,9 @@ document.querySelectorAll('a.navbar-link').forEach(anchor => {
         const offset = document.querySelector('nav').offsetHeight; /*Obtem a altura do menu fixo */
 
         const targetId = this.getAttribute('href');
-
-        const targetPosition = document.querySelector(targetId).offsetTop - offset;
+        const targetElement = document.querySelector(targetId);
+        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - offset;
+        
 
         window.scrollTo({
             top: targetPosition,
